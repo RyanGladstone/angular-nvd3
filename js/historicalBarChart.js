@@ -24,7 +24,7 @@ angular.module('mainApp.controllers')
                 xAxis: {
                     axisLabel: 'X Axis',
                     tickFormat: function(d) {
-                        return d3.time.format('%x')(new Date(d))
+                        return d3.time.format('%x')(new Date(d));
                     },
                     rotateLabels: 30,
                     showMaxMin: false
